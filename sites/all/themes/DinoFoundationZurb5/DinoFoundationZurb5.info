@@ -1,0 +1,25 @@
+name = Dino's
+description = Tema basado en Foundation Zurb 5
+core = 7.x
+engine = phptemplate
+; Estilos Propios
+stylesheets[all][] = css/stylesheets.css
+
+; Estilos de Foundation Zurb 5
+stylesheets[all][] = css/foundation.css
+stylesheets[all][] = css/foundation-icons/foundation-icons.css
+
+; Scripts de Foundation Zurb 5
+scripts[] = js/vendor/modernizr.js
+scripts[] = js/vendor/jquery.js
+scripts[] = js/foundation.min.js
+scripts[] = js/foundation/foundation.clearing.js
+
+
+; Regiones
+regions[sidebar_first]  = Left Sidebar
+regions[content]        = Content
+regions[footer_menu] = Footer Menu
+regions[footer_social] = Footer Social
+regions[footer]   = Footer
+

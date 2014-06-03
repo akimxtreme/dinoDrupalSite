@@ -1,0 +1,304 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/05/2014, 09:45:17 AM
+    Author     : Domingo Ilarreta
+*/
+/*
+Fuentes
+*/
+@font-face {font-family: LiberationSans-Regular; src: url(font/liberationSans/LiberationSans-Regular.ttf);}
+
+@font-face {font-family: Lobster; src: url(font/lobster/Lobster.otf);}
+/*
+Colores
+Rojo: #E00126
+Verde: #328925
+*/
+body {
+    background-color: #f4efef;
+}
+#contenedor {
+    font-family: 'Lobster';
+}
+/* Estilos de Menu Principal Izquierdo */
+#menuPrincipal {
+    margin: 0;
+    vertical-align:middle;
+}
+#menuPrincipal li {
+    list-style: none;
+    font-size: 17px;    
+    color: #328925;
+    font-weight: normal;
+    width: 100%;
+    float: left;
+    vertical-align:middle;
+    margin: 5px 0 ;
+    padding: 0;  
+}    
+#menuPrincipal li a {
+    color: #328925;
+    vertical-align:middle;
+}
+#menuPrincipal li a:hover {
+    color: #E00126;
+    text-decoration: underline;
+}
+#menuPrincipal li a:hover i {
+    color: #328925;
+}
+#menuPrincipal li a i {
+    margin-top: -10px;
+    color: #E00126;
+    font-size: 28px;
+    float:left;
+    width: 15%;
+    text-align:center;    
+    vertical-align:middle;
+    text-shadow: 1px 1px 1px #ccc;
+}
+#ubicacion a {
+    float: left;
+    width: 100%;
+    font-size: 150px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ccc;
+}
+/* Estilos Redes Sociales */
+#social ul {
+    list-style: none;
+    margin: 0;
+    font-size: 15px;
+}
+#social ul li a {
+    color:#328925;
+}
+#social ul li a i {
+font-size: 30px;
+    color:#328925;
+    text-shadow: 1px 0 0px #ccc;
+}
+
+/* Estilos Redes Sociales Pie */
+#socialPie ul {
+    list-style: none;
+    margin: 0;
+    font-size: 16px;
+}
+#socialPie ul li a {
+    color:#328925;
+}
+#socialPie ul li a i {
+    font-size: 30px;
+    color:#328925;
+    text-shadow: 1px 0 0px #ccc;
+    padding: 2.5%;
+}
+
+#visitas {
+    background-color:#E00126;    
+    opacity: 0.9;
+    text-align: center;
+}
+#visitas h4 {
+    font-family: 'Lobster';
+    color: #FFF;
+}
+
+#publicidad_izquierda a {
+    float: left;
+    width: 100%;
+    font-size: 150px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ccc;
+}
+
+#publicidad_derecha a {
+    float: left;
+    width: 100%;
+    font-size: 150px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ccc;
+}
+#ultimo div h1, h2, h3, h4, h5 {
+    font-family: Lobster;
+}
+#ultimo div p {font-family: LiberationSans-Regular; font-size: 12px;}
+#ultimo div {
+min-height: 350px;
+
+}
+#ultimo div .boton {
+background-color: #328925;
+}
+#ultimo div img{
+height: 100px;
+width: 150px;
+}
+
+#categoria div h1, h2, h3, h4, h5 {
+}
+#categoria div {
+min-height: 350px;
+
+}
+#categoria p {
+    font-family: LiberationSans-Regular; font-size: 14px;
+}
+#categoria div .boton {
+background-color: #328925;
+}
+#categoria div img{
+height: 150px;
+width: 230px;
+}
+
+/*Estilos Slider*/
+#slider .tituloSlider, #slider .tituloSlider2 {
+	font-size: 22px;
+}
+
+#sliderBoton .tituloSlider, #sliderBoton .tituloSlider2 {
+	font-size: 18px;
+}
+#slider .tituloSlider, #sliderBoton .tituloSlider{
+    background-color: #328925;
+    color: #FFF;
+    opacity: 0.9;
+    font-family: Lobster;
+    
+}
+#slider .tituloSlider2, #sliderBoton .tituloSlider2{
+    background-color: #E00126;
+    color: #FFF;
+    opacity: 0.9;
+    font-family: Lobster;
+    
+}
+#slider div ul{ 
+    box-shadow: 2px 2px 10px #000;
+}
+
+/* Estilos del Pie */
+#pie {
+    background-color:#328925;
+    opacity: 0.95;
+    border-top: 3px solid #E00126;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: #FFF;
+}
+#pie div p a {color: #FFF;}
+#pie div p i {font-size: 20px;}
+#pie div i {
+    font-size: 45px;
+}
+
+/* Estilos de Para el MenuCategoriaRecetas */
+
+#menuCategoriaRecetas {
+    color:#FFF;
+    font-family: LiberationSans-Regular;
+    /*opacity: 0.95;*/
+    
+}
+
+#menuCategoriaRecetas nav {
+    
+    border-radius:none;
+    border:none;
+    background-color: transparent;
+    color:#FFF;
+}
+#menuCategoriaRecetas hr{
+margin: 0; padding: 0;
+}
+
+#menuCategoriaRecetas nav a {
+    color: #FFF;
+    /*font-size: 12px;*/
+    font-weight: bold;
+    font-family: LiberationSans-Regular;
+}
+#menuCategoriaRecetas nav a:hover{
+    text-shadow: 0 1px 3px #FFF;
+    color: #000;
+}
+#usuario {
+    font-family: LiberationSans-Regular;
+}
+#usuario a.registry{
+    background-color: #328925;
+    opacity: 0.8;
+    margin: 0;
+}
+#usuario a.user{
+    background-color: #E00126;
+    opacity: 0.8;
+    margin: 0;
+}
+#usuario button {
+    background-color: #328925;
+}
+
+#recetas h1 {
+    font-family: Lobster;
+    color: #328925;
+}
+#recetasCat h2 {
+    font-family: Lobster;
+    color: #328925;
+    font-size: 25px;
+}
+#recetasCat h2 a {
+    color: #E00126;
+}
+#recetasCat h2 a:hover{
+    color: #328925;
+}
+#recetas img {
+    width: 200px;
+    height: 200px;
+}
+#recetasCat img {
+    width: 100px;
+    height: 100px;
+}
+#recetasCat .ruta {
+    background-color: #328925;
+    color: #FFF;
+}
+#recetas p, #recetasCat p {
+    font-family: LiberationSans-Regular;
+}
+
+
+
+
+
+/*
+ROJO #E00126
+VERDE #328925
+*/
+
+/*Degradados*/
+
+.verde1{
+background: #4dd63b; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkZDYzYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMjg5MjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #4dd63b 0%, #328925 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4dd63b), color-stop(100%,#328925)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #4dd63b 0%,#328925 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #4dd63b 0%,#328925 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #4dd63b 0%,#328925 100%); /* IE10+ */
+background: linear-gradient(to bottom, #4dd63b 0%,#328925 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dd63b', endColorstr='#328925',GradientType=0 ); /* IE6-8 */
+}
