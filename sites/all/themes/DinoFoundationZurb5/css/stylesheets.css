@@ -148,9 +148,26 @@ font-size: 30px;
     vertical-align: middle;
     color: #ccc;
 }
+#ultimo {
+    height: 300px;
+}
+#ultimo div h4 {
+    color:#328925;
+    font-size: 1.2em;
+}
+
+#ultimo div div h5 { font-size: 1.3em; text-align: left; color:#444 ; padding: 0px; margin: 0px; font-family: 'Lobster';}
+#ultimo div div h5 i { background: #328925; color:#FFF; padding: 10px 10px; border-radius:10px 10px 0 0;  font-size: 1.3em; }
+
+#ultimo div div h6 { text-align: center; font-size: 0.9em; color:#FFF; box-shadow: 0 0 2px #333; min-height: 50px; padding-top: 5px; margin-top: 2px; background-color: #328925; opacity: 0.9;}
+#ultimo div div h6:hover { background: #E00126;}
+#ultimo div div h6 a { color:#FFF;}
+
+
 #ultimo div h1, h2, h3, h4, h5 {
     font-family: Lobster;
 }
+
 #ultimo div p {font-family: LiberationSans-Regular; font-size: 12px;}
 #ultimo div {
 min-height: 350px;
@@ -160,9 +177,18 @@ min-height: 350px;
 background-color: #328925;
 }
 #ultimo div img{
-height: 100px;
-width: 150px;
+width: 100%;
 }
+
+#categoria div a img {}
+#categoria div h5 {}
+
+#categoria div h4 { font-size: 1.2em; text-align: left; color:#444 ; padding: 0px; margin: 0px; font-family: 'Lobster'; opacity: 0.9;}
+#categoria div h4 i { background: #E00126; color:#FFF; padding: 5px 10px 0px 10px; border-radius:10px 10px 0 0;  font-size: 1.1em; }
+
+#categoria div h5 { font-family: 'Lobster'; text-align: center; font-size: 0.9em; color:#FFF; box-shadow: 0 0 2px #333; min-height: 50px; padding-top: 5px; margin-top: 2px; background-color: #E00126; opacity: 0.9;}
+#categoria div h5:hover { background: #E00126;}
+#categoria div h5 a { color:#FFF;}
 
 #categoria div h1, h2, h3, h4, h5 {
 }
@@ -171,14 +197,14 @@ min-height: 350px;
 
 }
 #categoria p {
-    font-family: LiberationSans-Regular; font-size: 14px;
+    font-family: LiberationSans-Regular; font-size: 1px;
 }
 #categoria div .boton {
 background-color: #328925;
 }
 #categoria div img{
-height: 150px;
-width: 230px;
+height: ;
+width:;
 }
 
 /*Estilos Slider*/
@@ -578,5 +604,5 @@ div.field-name-field-imagen-de-categoria img {width: 30%; float: right; margin: 
     font-family: Lobster;
     padding-left: 1%; 
 }
-#comments div.user-picture {float: left; width: 8%; border-radius: 10px; box-shadow: 0 0 0 red; padding-left: 1%;  margin: 1%; 1% 0% 0%;}
+#comments div.user-picture {float: left; width: 8%; border-radius: 10px; box-shadow: 0 0 0 red; padding-left: 1%;  margin: 1% 1% 0% 0%;}
 #comments h3 {float: left; width: 90%; font-size: 1.2em;}
