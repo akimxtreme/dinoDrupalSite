@@ -217,7 +217,7 @@ $databases = array (
     array (
       'database' => 'dinoDrupal',
       'username' => 'root',
-      'password' => '1234',
+      'password' => '',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',

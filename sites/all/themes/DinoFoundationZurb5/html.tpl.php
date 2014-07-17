@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * @file
@@ -56,6 +56,7 @@
            <meta name="Resource-type" content="Homepage">
            <meta name="Revisit-after" content="4 days">
            <meta name="robots" content="all">
+           <link rel="icon" href="sites/default/files/logo-mini.png"/>
            <title><?php print $head_title; ?></title>
            <?php print $styles; ?>
            <?php print $scripts; ?>

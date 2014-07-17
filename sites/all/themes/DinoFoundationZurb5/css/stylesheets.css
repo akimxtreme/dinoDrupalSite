@@ -159,7 +159,7 @@ font-size: 30px;
 #ultimo div div h5 { font-size: 1.3em; text-align: left; color:#444 ; padding: 0px; margin: 0px; font-family: 'Lobster';}
 #ultimo div div h5 i { background: #328925; color:#FFF; padding: 10px 10px; border-radius:10px 10px 0 0;  font-size: 1.3em; }
 
-#ultimo div div h6 { text-align: center; font-size: 0.9em; color:#FFF; box-shadow: 0 0 2px #333; min-height: 50px; padding-top: 5px; margin-top: 2px; background-color: #328925; opacity: 0.9;}
+#ultimo div div h6 { text-align: center; font-size: 0.8em; color:#FFF; box-shadow: 0 0 2px #333; min-height: 50px; padding-top: 5px; margin-top: 2px; background-color: #328925; opacity: 0.9;}
 #ultimo div div h6:hover { background: #E00126;}
 #ultimo div div h6 a { color:#FFF;}
 
@@ -193,7 +193,7 @@ width: 100%;
 #categoria div h1, h2, h3, h4, h5 {
 }
 #categoria div {
-min-height: 350px;
+min-height: 220px;
 
 }
 #categoria p {
@@ -213,7 +213,7 @@ width:;
 }
 
 #sliderBoton .tituloSlider, #sliderBoton .tituloSlider2 {
-	font-size: 18px;
+	font-size: 1.4em;
 }
 #slider .tituloSlider, #sliderBoton .tituloSlider{
     background-color: #328925;
@@ -241,11 +241,14 @@ width:;
     margin-bottom: 10px;
     padding-top: 10px;
     color: #FFF;
+	font-family:LiberationSans-Regular;
 }
-#pie div p a {color: #FFF;}
+#pie div p a {color: #F2F2F2;}
+#pie div p { font-size:1em; color: #F2F2F2;}
 #pie div p i {font-size: 20px;}
 #pie div i {
-    font-size: 45px;
+    font-size: 4em;
+	color: #F2F2F2;
 }
 
 /* Estilos de Para el MenuCategoriaRecetas */
@@ -606,3 +609,10 @@ div.field-name-field-imagen-de-categoria img {width: 30%; float: right; margin: 
 }
 #comments div.user-picture {float: left; width: 8%; border-radius: 10px; box-shadow: 0 0 0 red; padding-left: 1%;  margin: 1% 1% 0% 0%;}
 #comments h3 {float: left; width: 90%; font-size: 1.2em;}
+#musica {
+	font-family: LiberationSans-Regular;
+	}
+#musica div p{ font-size:0.7em;}
+#musica i {
+	color: #328925;
+}
